@@ -1,0 +1,14 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: demo
+
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://udemy.cgb50hlod4h1.ap-northeast-2.rds.amazonaws.com:3306/UdemyServer?autoReconnect=true #변경해주세요
+    username: admin
+    password: cofls2sms #와 비밀번호 이게 맞는데 왜 안돼?!?!?!?!!?
+    driver-class-name: com.mysql.cj.jdbc.Driver # mysql 8버전
+    # driver-class-name: com.mysql.jdbc.Driver # mysql 5버전
