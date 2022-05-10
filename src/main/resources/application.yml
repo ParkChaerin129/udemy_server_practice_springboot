@@ -7,7 +7,7 @@ spring:
 
   datasource:
     platform: mysql
-    url: jdbc:mysql://udemy.cgb50hlod4h1.ap-northeast-2.rds.amazonaws.com:3306/UdemyServer?autoReconnect=true #변경해주세요
+    url: jdbc:mysql://엔드포인트:3306/UdemyServer?autoReconnect=true #변경해주세요
     username: admin
     password:  #와 비밀번호 이게 맞는데 왜 안돼?!?!?!?!!?
     driver-class-name: com.mysql.cj.jdbc.Driver # mysql 8버전
